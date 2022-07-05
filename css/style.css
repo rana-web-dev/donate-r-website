@@ -1,0 +1,221 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: arial;
+}
+section {
+    width: 1170px;
+    margin: auto;
+    padding: 100px 0;
+    text-align: center;
+}
+/* Donate Head */
+.donate-head {
+    background-image: linear-gradient(#607d8b, #673ab759),url(../img/flooded-people.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.donate-head h1 {
+    font-size: 50px;
+    width: 800px;
+    margin: auto;
+    padding-bottom: 30px;
+    color: #ffffff;
+}
+.donate-head p {
+    font-size: 18px;
+    width: 500px;
+    margin: auto;
+    color: #ffffff;
+    padding-bottom: 30px;
+    font-family: Georgia, serif;
+}
+.donate-head a {
+    text-decoration: none;
+    background-color: #ff5959;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.donate-head a:hover {
+    background-color: #f35656;
+}
+/* Donate Collect */
+.donate-collect h1{
+    font-size: 35px;
+}
+.donate-collect p {
+    width: 400px;
+    margin: auto;
+}
+.donate-collect .donate-count {
+    display: flex;
+    width: 550px;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    padding: 50px 0;
+}
+.donate-collect .select-tk {
+    background-color: #ffeeee;
+    padding: 30px;
+    border-radius: 3px;
+    border: 2px solid #ffa5a5;
+}
+.donate-collect input {
+    width: 550px;
+    border: none;
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 40px;
+    border-bottom: 2px solid #dbdbdb;
+}
+.donate-collect input:focus {
+    outline: none;
+}
+.donate-collect a {
+    text-decoration: none;
+    background-color: #ff5959;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.donate-collect a:hover {
+    background-color: #f35656;
+}
+/* Donate Plan*/
+.donate-plan h1 {
+    font-size: 35px;
+}
+.donate-plan>p {
+    width: 400px;
+    margin: auto;
+}
+.donate-plan .donate-plan-box {
+    display: flex;
+    margin: 40px 0;
+}
+.donate-plan .for-family {
+    padding: 60px 30px;
+    text-align: left;
+    background-color: #e5e5e5;
+    margin: 5px;
+    border-radius: 3px;
+}
+.donate-plan .for-shelter {
+    padding: 60px 30px;
+    text-align: left;
+    background-color: #dddfcd;
+    margin: 5px;
+    border-radius: 3px;
+}
+.donate-plan .for-treatment {
+    padding: 60px 30px;
+    text-align: left;
+    background-color: #edddff;
+    margin: 5px;
+    border-radius: 3px;
+}
+/* Situation Flooded People */
+.situation-flooded-people {
+    display: flex;
+}
+.situation-content {
+    width: 50%;
+    text-align: left;
+    padding: 0px 64px 0px 10px;
+}
+.situation-content h1 {
+    font-size: 35px;
+}
+.situation-content a {
+    text-decoration: none;
+    background-color: #ff5959;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.situation-content a:hover {
+    background-color: #f35656;
+}
+.situation-img {
+    width: 50%;
+}
+.situation-img img {
+    width: 100%;
+    border-radius: 5px;
+}
+/* They Need Us */
+.they-need-us {
+    display: flex;
+}
+.they-need-content {
+    width: 50%;
+    text-align: left;
+    padding: 0px 0px 0px 64px;
+}
+.they-need-img img {
+    border-radius: 5px;
+}
+.they-need-content h1 {
+    font-size: 35px;
+}
+.they-need-content a {
+    text-decoration: none;
+    background-color: #ff5959;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.they-need-content a:hover {
+    background-color: #f35656;
+}
+/* Update */
+.update h1 {
+    font-size: 35px;
+}
+.update p {
+    width: 550px;
+    margin: auto;
+    padding-bottom: 100px;
+}
+.update .email-input {
+    background-color: #fff4d6;
+    width: 500px;
+    margin: auto;
+    padding: 80px;
+}
+.update .email-input input {
+    width: 300px;
+    outline: none;
+    border: none;
+    padding: 10px;
+    background-color: #d9d9d9;
+    border-radius: 3px 0px 0px 3px;
+}
+.update .email-input a {
+    background-color: #ff5959;
+    padding: 9px;
+    color: #fff;
+    margin-left: -92px;
+    border-radius: 0 3px 3px 0;
+}
+.update .email-input a:hover {
+    background-color: #f05656;
+    cursor: pointer;
+}
+/* Footer */
+footer {
+    background-color: #0b0d17;
+    text-align: center;
+    color: #dddfcd;
+    padding: 80px;
+}
+footer h2 {
+    color: #ff8d00;
+    font-size: 35px;
+    font-family: 'Courier New', Courier, monospace;
+}
+footer p {
+    font-family: 'Times New Roman', Times, serif;
+}
